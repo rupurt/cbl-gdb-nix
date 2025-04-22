@@ -8,7 +8,7 @@
     repo = "cbl-gdb";
     rev = "master";
     version = "5.3.1";
-    sha256 = "sha256-IViYSxbK85qQiOeQFt93xtpiMsso7Qh9lQWiMjutakk=";
+    sha256 = "sha256-fTtYSrkh10Si4u9LWz4hXYY4yp1aZX/ufDoLdCHWS90=";
   };
   args = defaultArgs // specialArgs;
   repo = pkgs.fetchFromGitLab {
